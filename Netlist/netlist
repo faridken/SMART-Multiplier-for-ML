@@ -43,9 +43,9 @@ ends TS_gate
 // Cell name: MUX
 // View name: schematic
 subckt MUX A B S Y
-    I1 (B S Y) TS_gateMUX
-    I0 (A net3 Y) TS_gateMUX
-    I2 (S net3) INVMUX
+    I1 (B S Y) TS_gate
+    I0 (A net3 Y) TS_gate
+    I2 (S net3) INV
 ends MUX
 // End of subcircuit definition.
 // Library name: 180_tech
