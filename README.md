@@ -22,9 +22,9 @@ F. Kenarangi and I. P.-Vaisband, “A Single-MOSFET Analog High Resolution-Targe
 * Netlist - (Contains the transistor level netlist of the SMART classifier)
 * Log - (contains Log file generated upon completion of the simualtion)
 
-* Outputs - (.raw file generated executing the simulation which containes the voltage waveforms of sensing lines and decision of the binary classifiers)
+* Output - (.raw file generated executing the simulation which containes the voltage waveforms of sensing lines and decision of the binary classifiers)
 
-* Results - (script to show the final classification accuracy)
+* Results - (screenshots of simulation environment)
 
 ## Platform
 [CentOS Linux release 7.6.1810](https://www.centos.org/)
@@ -79,6 +79,9 @@ Note that to execute the simulation you will need Cadence's generic PDK (gpdk180
 
 ## Simulation Results
 
-The votes/decisions of binary classifiers are sampled with a frequency of 100MHz and are stored in "/Outputs/netlist.raw". Finally the accuracy is obtained based on these decisions using a simple script (i.e., Accuracy.ipynb).      
+The votes/decisions of binary classifiers are sampled with a frequency of 100MHz and are stored in "/Output/netlist.raw". Finally the accuracy is obtained using Python as shown below:      
 
-![alt text](images/acc.png)
+![alt text](images/conf_matrix.jpg)
+
+<!-- ![](images/conf_matrix.jpg | width=100) -->
+<!-- ![test](images/conf_matrix.jpg =24x48) -->
