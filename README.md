@@ -3,9 +3,11 @@
 * [Abstract](#Abstract)
 * [Paper](#Paper)
 * [Directory](#Directory)
-
-
-
+* [Platform](#Platform)
+* [Software](#Software)
+* [Simulation](#Run-Simulation)
+* [Screenshots](#Screenshots)
+* [Results](#Results)
 
 ## Abstract
 Mixed-signal machine-learning classification has recently been demonstrated as an efficient alternative for classification with power expensive digital circuits. In this paper, a single-MOSFET analog multiplier is proposed for classifying high-dimensional input data into multi-class output space with less power and higher accuracy than state-of-the-art mixed-signal linear classifiers. A high-resolution (i.e., multi-bit) multiplication is facilitated within a single-MOSFET by feeding the features and feature weights into, respectively, the body and gate inputs. High-resolution classifier that considers the decision of the individual predictors is designed at 180nm technology node and operates at 100MHz in near/subthreshold region.
@@ -24,7 +26,7 @@ F. Kenarangi and I. P.-Vaisband, “A Single-MOSFET Analog High Resolution-Targe
 
 * Results - (script to show the final classification accuracy)
 
-## Verified platform
+## Platform
 [CentOS Linux release 7.6.1810](https://www.centos.org/)
 
 ## Software
@@ -40,13 +42,21 @@ Copyright (C) 1989-2015 Cadence Design Systems, Inc. All rights reserved worldwi
 
 1. Download the repository directly as a zip file or using git clone command:
 
-`git clone https://github.com/faridken/SMART_Classifier.git`
+`git clone https://github.com/faridken/SMART_Multiplier_for_ML.git`
 
 2. Make sure you have downloaded the files to a directory where you can envoke spectre simulator of Cadence
 
-3. To point out to the correct component models you may need to change the ditecrly of the modesl within netlist file (the line as attached below)
+3. To point to the correct component models you may need to change the ditecrly of the modesl within netlist file (the line as attached below)
 
 `include "/opt/gpdk180_v3.3/models/spectre/gpdk.scs" section=NN"`
+
+Also make sure that the directory to provide input features are correct (as shown below):
+
+
+`...`
+
+
+
 
 
 Note that to execute the simulation you will need Cadence's generic PDK (gpdk180) to be installed. You need to directly download it from cadence.com.
