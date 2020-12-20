@@ -52,8 +52,11 @@ Copyright (C) 1989-2015 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Also make sure that the directory to provide input features are correct (as shown below):
 
+`VF0Bit0 (F0Bit0 0) vsource file="/home/farid/cadence_local/JETCAS/F0Bit0.p" type=pwl`
 
 `...`
+
+`VF47Bit0 (F47Bit0 0) vsource file="/home/farid/cadence_local/JETCAS/F47Bit0.p" type=pwl`
 
 
 
