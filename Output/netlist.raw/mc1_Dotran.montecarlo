@@ -1,0 +1,12 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "15.1.0.257"
+"date" "10:10:14 PM, Sat Dec 19, 2020"
+"design" "// Generated for: spectre"
+"analysis type" "montecarlo"
+"analysis name" "mc1_Dotran"
+"analysis description" "Monte Carlo parent"
+"xVecSorted" "ascending"
+"tolerance.relative" 0.00100000
+END

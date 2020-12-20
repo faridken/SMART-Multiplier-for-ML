@@ -1,0 +1,43 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Sat Dec 19 22:10:14 2020"
+"simulator" "spectre"
+"version" "15.1.0.257"
+"date" "10:10:14 PM, Sat Dec 19, 2020"
+"design" "// Generated for: spectre"
+"signalNameType" "spectre"
+"simMode" "APS"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"nom_Dotran-tran" "analysisInst" (
+"tran"
+"nom/Dotran.tran.tran"
+"PSF"
+""
+("time")
+"Transient Analysis `Dotran': time = (0 s -> 100.01 us)"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+"mc1_Dotran-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_Dotran.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+END
